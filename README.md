@@ -9,10 +9,10 @@ the server terminates, it prints these statistics to standard output.
 ### to compile: gcc -O3 -D_POSIX_C_SOURCE=200809 -std=c11 pcc_server.c (or pcc_client.c)
 ### Client specification:
   Command line arguments:
-  • argv[1]: server’s IP address (assume a valid IP address)
-  • argv[2]: server’s port (assume a 16-bit unsigned integer)
-  • argv[3]: path of the file to send
+  argv[1]: server’s IP address (assume a valid IP address)
+  argv[2]: server’s port (assume a 16-bit unsigned integer)
+  argv[3]: path of the file to send
 ### Server specification:
   Command line arguments:
-  • argv[1]: server’s port (assume a 16-bit unsigned integer).
+  argv[1]: server’s port (assume a 16-bit unsigned integer).
 ### Exit Server through SIGINT.
